@@ -7,13 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
+
 <body>
+
     <?php require 'partials/header.php' ?>
 
 <h1>BIENVENIDO</h1>
 
     <a href="login.php">Login</a> or
     <a href="registro.php">Registrar</a>
-    
+
+    <?php require 'partials/footer.php' ?>
+
 </body>
 </html>
