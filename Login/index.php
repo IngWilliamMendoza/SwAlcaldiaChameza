@@ -9,15 +9,17 @@
 </head>
 
 <body>
+    
+    <?php require 'partials/header.php'?>
 
-    <?php require 'partials/header.php' ?>
+    <?php require 'partials/footer.php'?>
 
 <h1>BIENVENIDO</h1>
 
-    <a href="login.php">Login</a> or
-    <a href="registro.php">Registrar</a>
+    <a href="login.php">Login</a>
+    <!--<a href="registro.php">Registrar</a>-->
 
-    <?php require 'partials/footer.php' ?>
+    
 
 </body>
 </html>
