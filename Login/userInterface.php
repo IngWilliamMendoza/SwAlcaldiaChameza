@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="stylesheet" href="assets/css/estiloMenu.css">
-    <title>Administrador</title>
+    <title>Interfaz de usuario</title>
 
 </head>
 
@@ -31,7 +31,7 @@
         <!--Header-->
         <div id="header">
             <div id="title">
-                <span>Administrador</span>
+                <span>Usuario x</span>
             </div>
             <div id="menu-btn">
                 <div class="btn-hamburger"></div>
@@ -42,38 +42,17 @@
 
         <!--Profile-->
         <div id="profile">
-            <div id="foto"><img src="recursos/imagenes/fotoPerfil.png" alt="foto perfil"></div>
+            <div id="foto"><img src="recursos/imagenes/fotoPerfilMujer.png" alt="foto perfil"></div>
 
             <div id="name">
-                <span>William Mendoza</span>
+                <span>Natalia Cruz</span>
             </div>
         </div>
 
         <!--Item-->
 
         <div id="menu-items">
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoUsuario.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Usuarios</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoDependencias.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Dependencias</span>
-                    </div>
-                </a>
-            </div>
-
+            
             <div class="item">
                 <a href="#">
                     <div class="icon">
@@ -84,18 +63,7 @@
                     </div>
                 </a>
             </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoAgregarDocumento.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Agregar Documentos</span>
-                    </div>
-                </a>
-            </div>
-
+            
             <div class="item separator"></div>
 
             <div class="item">
