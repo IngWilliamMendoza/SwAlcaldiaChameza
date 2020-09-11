@@ -1,7 +1,6 @@
 :root{
     --width : 300px;    
     --padding: 10px;
-    --bgcolor:#0098cb;    
     --hovercolor:#00b8eb;
     --width-collapsed: 50px;
 }
@@ -45,8 +44,7 @@ body{
 }
 
 
-#sideMenu{
-    background-color: var(--bgcolor);
+#sideMenu{   
     color: white;
     position: fixed;
     height: 100%;

@@ -1,162 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/estilos.css">
-    <link rel="stylesheet" href="assets/css/estiloMenu.css">
-    <title>Administrador</title>
+<title>Administrador</title>
 
-</head>
+<?php require 'partials/header.php'?>
+<?php require 'partials/menuLat.php' ?>
 
-<?php 
-
-    require 'partials/header.php'
-
-?>
-
-
-<body>
-
-    <div id="main-container">
-        <div class="binvenida">
-            <h2>Bienvenidos</h2> 
-        </div>  
-
-    </div>
-
-    <div id="sideMenu" class="menu-collapsed">
-
-        <!--Header-->
-        <div id="header">
-            <div id="title">
-                <span>Administrador</span>
-            </div>
-            <div id="menu-btn">
-                <div class="btn-hamburger"></div>
-                <div class="btn-hamburger"></div>
-                <div class="btn-hamburger"></div>
-            </div>
+    <div id="container">
+        <h1 class = "text-center">WELCOME</h1>
+        <div>
+            <h2 class= "text-center">SIGED(Sistema de Gestion Documental)</h2>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Possimus saepe aliquam molestiae officia, quod ducimus porro 
+            soluta maiores vero quis! Ipsam nemo sint illo repellendus non, 
+            delectus saepe! Neque, est.</p>
         </div>
-
-        <!--Profile-->
-        <div id="profile">
-            <div id="foto"><img src="recursos/imagenes/fotoPerfil.png" alt="foto perfil"></div>
-
-            <div id="name">
-                <span>William Mendoza</span>
-            </div>
-        </div>
-
-        <!--Item-->
-
-        <div id="menu-items">
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoUsuario.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Usuarios</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoDependencias.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Dependencias</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoDocumento.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Documentos</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoAgregarDocumento.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Agregar Documentos</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item separator"></div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoEditarPerfil.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Editar Perfil</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoCambiarContraseña.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Cambiar Contraseña</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoCerrarSesion.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Cerrar Sesion</span>
-                    </div>
-                </a>
-            </div>
-
-
-        </div>
-
-    </div>
-
-    <script>
-        const btn = document.querySelector('#menu-btn');
-        const menu = document.querySelector('#sideMenu');
-        btn.addEventListener('click', e =>{
-            menu.classList.toggle("menu-expanded");
-            menu.classList.toggle("menu-collapsed");
-
-            //desplarzar la pagina
-            document.querySelector('body').classList.toggle('body-expanded');
-
-        });
         
-    </script>
 
-    <footer>
-        <?php 
-            require 'partials/footer.php'
-        ?>
-    </footer>
 
-</body>
+    </div>
 
-</html>
+
+<?php require 'partials/footer.php'?>
+
+
+
+
 
