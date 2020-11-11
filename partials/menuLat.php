@@ -27,7 +27,7 @@
             <div class="item">
                 <a href="usuarios.php">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoUsuario.svg" alt="">
+                        <img src="recursos/iconos/iconoUsuario.svg" alt="usuarios" accesskey="u">
                     </div>
                     <div class="title">
                         <span>Usuarios</span>
@@ -36,9 +36,9 @@
             </div>
 
             <div class="item">
-                <a href="#">
+                <a href="dependencias.php">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoDependencias.svg" alt="">
+                        <img src="recursos/iconos/iconoDependencias.svg" alt="dependencias" accesskey="s">
                     </div>
                     <div class="title">
                         <span>Dependencias</span>
@@ -47,9 +47,9 @@
             </div>
 
             <div class="item">
-                <a href="#">
+                <a href="documentos.php">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoDocumento.svg" alt="">
+                        <img src="recursos/iconos/iconoDocumento.svg" alt="documentos" accesskey="a">
                     </div>
                     <div class="title">
                         <span>Documentos</span>
@@ -60,10 +60,10 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoAgregarDocumento.svg" alt="">
+                        <img src="recursos/iconos/iconoAgregarDocumento.svg" alt="reuniones" accesskey="r">
                     </div>
                     <div class="title">
-                        <span>Agregar Documentos</span>
+                        <span>Reuniones</span>
                     </div>
                 </a>
             </div>
@@ -73,7 +73,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoEditarPerfil.svg" alt="">
+                        <img src="recursos/iconos/iconoEditarPerfil.svg" alt="editar perfil" accesskey="p">
                     </div>
                     <div class="title">
                         <span>Editar Perfil</span>
@@ -84,7 +84,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoCambiarContraseña.svg" alt="">
+                        <img src="recursos/iconos/iconoCambiarContraseña.svg" alt="cambiar contraseña" accesskey="w">
                     </div>
                     <div class="title">
                         <span>Cambiar Contraseña</span>
@@ -95,7 +95,7 @@
             <div class="item">
                 <a href="index.php">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoCerrarSesion.svg" alt="">
+                        <img src="recursos/iconos/iconoCerrarSesion.svg" alt="cerrar sesion" accesskey="x">
                     </div>
                     <div class="title">
                         <span>Cerrar Sesion</span>
