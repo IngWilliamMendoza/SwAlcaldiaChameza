@@ -1,11 +1,11 @@
 <title>Sistema de gestion documental</title>
       
-<?php require 'partials/header.php'?>
+<?php require '../partials/header.php'?>
 
 <h1>BIENVENIDO</h1>
 
-<a href="login.php">Login</a>
+<a href="../Login/login.php">Login</a>
     
-<?php require 'partials/footer.php'?>
+<?php require '../partials/footer.php'?>
     
 

@@ -14,7 +14,7 @@
 
         <!--Profile-->
         <div id="profile">
-            <div id="foto"><img src="recursos/imagenes/fotoPerfil.png" alt="foto perfil"></div>
+            <div id="foto"><img src="../recursos/imagenes/fotoPerfil.png" alt="foto perfil"></div>
 
             <div id="name">
                 <span>William Mendoza</span>
@@ -25,9 +25,9 @@
 
         <div id="menu-items">
             <div class="item">
-                <a href="usuarios.php">
+                <a href="../admin/usuarios.php" accesskey="u" title="Usuarios(alt + u)">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoUsuario.svg" alt="">
+                        <img src="../recursos/iconos/iconoUsuario.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Usuarios</span>
@@ -37,8 +37,8 @@
 
             <div class="item">
                 <a href="#">
-                    <div class="icon">
-                        <img src="recursos/iconos/iconoDependencias.svg" alt="">
+                    <div class="icon" accesskey="d" title="Dependencias(alt + d)">
+                        <img src="../recursos/iconos/iconoDependencias.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Dependencias</span>
@@ -47,9 +47,9 @@
             </div>
 
             <div class="item">
-                <a href="#">
+                <a href="#" accesskey="t" title="Documentos(alt + t)">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoDocumento.svg" alt="">
+                        <img src="../recursos/iconos/iconoDocumento.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Documentos</span>
@@ -58,9 +58,9 @@
             </div>
 
             <div class="item">
-                <a href="#">
+                <a href="#" accesskey="a" title="Agregar Documento(alt + a)">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoAgregarDocumento.svg" alt="">
+                        <img src="../recursos/iconos/iconoAgregarDocumento.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Agregar Documentos</span>
@@ -71,9 +71,9 @@
             <div class="item separator"></div>
 
             <div class="item">
-                <a href="#">
+                <a href="#" accesskey="e" title="Edita perfil(alt + e)">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoEditarPerfil.svg" alt="">
+                        <img src="../recursos/iconos/iconoEditarPerfil.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Editar Perfil</span>
@@ -82,9 +82,9 @@
             </div>
 
             <div class="item">
-                <a href="#">
+                <a href="#" accesskey="p" title="Cambiar Contraseña">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoCambiarContraseña.svg" alt="">
+                        <img src="../recursos/iconos/iconoCambiarContraseña.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Cambiar Contraseña</span>
@@ -93,9 +93,9 @@
             </div>
 
             <div class="item">
-                <a href="index.php">
+                <a href="../Login/index.php" accesskey="l" title="salir">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoCerrarSesion.svg" alt="">
+                        <img src="../recursos/iconos/iconoCerrarSesion.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Cerrar Sesion</span>

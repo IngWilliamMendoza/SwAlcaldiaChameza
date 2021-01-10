@@ -14,7 +14,7 @@
 
         <!--Profile-->
         <div id="profile">
-            <div id="foto"><img src="recursos/imagenes/fotoPerfilMujer.png" alt="foto perfil"></div>
+            <div id="foto"><img src="../recursos/imagenes/fotoPerfilMujer.png" alt="foto perfil"></div>
 
             <div id="name">
                 <span>Natalia Cruz</span>
@@ -28,7 +28,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoDocumento.svg" alt="">
+                        <img src="../recursos/iconos/iconoDocumento.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Documentos</span>
@@ -41,7 +41,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoEditarPerfil.svg" alt="">
+                        <img src="../recursos/iconos/iconoEditarPerfil.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Editar Perfil</span>
@@ -52,7 +52,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoCambiarContraseña.svg" alt="">
+                        <img src="../recursos/iconos/iconoCambiarContraseña.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Cambiar Contraseña</span>
@@ -63,7 +63,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icon">
-                        <img src="recursos/iconos/iconoCerrarSesion.svg" alt="">
+                        <img src="../recursos/iconos/iconoCerrarSesion.svg" alt="">
                     </div>
                     <div class="title">
                         <span>Cerrar Sesion</span>

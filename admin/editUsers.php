@@ -1,4 +1,4 @@
-<?php include("db.php");
+<?php include("../Login/db.php");
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -32,7 +32,7 @@ if (isset($_POST['update'])) {
 
 ?>
 
-<?php include("partials/header.php") ?>
+<?php include("../partials/header.php") ?>
 
 <div class="container p-4">
     <div class="row">
@@ -71,4 +71,4 @@ if (isset($_POST['update'])) {
 
 </div>
 
-<?php include("partials/footer.php") ?>
+<?php include("../partials/footer.php") ?>

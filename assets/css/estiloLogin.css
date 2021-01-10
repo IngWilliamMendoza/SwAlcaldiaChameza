@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../../recursos/imagenes/fondo_cyber.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.Upcontainer {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.back-container {
+    width: 100%;
+    height: 60%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 170, 255, 0.3);
+}
+
+.back-container div {
+    margin: 5% 5%;
+    width: 50%;
+    color: white;
+    transition: all 500ms;
+}
+
+.back-container div p, .back-container div button {
+    margin-top: 5%;
+}
+
+.back-container div h3 {
+    font-weight: 400px;
+    font-size: 26px;
+}
+
+.back-container button {
+    padding: 5% 5%;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+
+.back-container button:hover {
+    background: #00b8eb;
+}
+
+/*Formularios*/
+
+.contenedor-form-login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    max-width: 380px;
+    position: relative;
+    /* top: 0; */
+    left: 15px;
+}
+
+.contenedor-form-login form {
+    width: 100%;
+    height: 110%;
+    margin-top: -700px;
+    padding: 5px 20px;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor-form-login form h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #0096ff;
+    font-weight: bolder;
+}
+
+.contenedor-form-login form input {
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background: #f2f2f2;
+    font-size: 1em;
+    outline: none;
+}
+
+.contenedor-form-login form button {
+    padding: 0.5em 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 1em;
+    font-size: 14px;
+    background: #0096ff;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-login {
+    opacity: 1;
+    display: block;
+}
+
+.form-register {
+    display: none;
+}
+
+.
+/* .divLogin {
+    width: auto;
+    height: 60%;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(226, 236, 241, 0.3);
+    margin: 40px 20px;
+    position: absolute;
+}
+
+.divLogin h1 {
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+input[type="text"], input[type="password"] {
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid whitesmoke;
+    margin: 30px 20px;
+}
+
+input[type="submit"] {
+    padding: 8px;
+    color: #ffffff;
+    background: #0098cb;
+    width: 340px;
+    margin: 10px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00b8eb;
+} */
