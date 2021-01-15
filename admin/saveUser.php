@@ -6,7 +6,7 @@
     }
     */
     //incluir la conexion a la base de datos
-    include("db.php");
+    include("../Login/db.php");
 
 
     if(isset($_POST['saveUser'])){

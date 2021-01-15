@@ -12,7 +12,10 @@ body {
     margin: 0;
     margin-left: var(--width-collapsed);
     height: 100%;
+<<<<<<< HEAD:assets/css/estiloMenu.css
     background-color: rgb(219, 229, 233);
+=======
+>>>>>>> welcome:Login/assets/css/estiloMenu.css
 }
 
 .body-expanded {
@@ -25,11 +28,19 @@ body {
     width: 100%;
     position: fixed;
     text-align: center;
-    /*background-image: url(../../recursos/imagenes/fondo.jpg);    
     background-attachment: fixed;
-    background-position: 100% 100%;*/
+    background-position: 100% 100%;
 }
 
+<<<<<<< HEAD:assets/css/estiloMenu.css
+=======
+#main-container .bienvenida {}
+
+#main-container .usuarios {}
+
+#main-container .dependencias {}
+
+>>>>>>> welcome:Login/assets/css/estiloMenu.css
 #sideMenu {
     color: white;
     position: fixed;
@@ -207,7 +218,3 @@ body {
 .menu-collapsed .item {
     width: 100px;
 }
-
-/*
-
-/*

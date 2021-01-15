@@ -1,6 +1,6 @@
-<?php include("partials/header.php") ?>
+<?php include("../partials/header.php") ?>
 <title>Crear Usuario</title>
-<?php require 'partials/menuLat.php' ?>
+<?php require '../partials/menuLat.php' ?>
 
 <div class="container-fluid">
 
@@ -57,4 +57,4 @@
     </div>
 </div>
 
-<?php include("partials/footer.php") ?>
+<?php include("../partials/footer.php") ?>

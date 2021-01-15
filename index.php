@@ -1,5 +1,5 @@
 <title>Sistema de gestion documental</title>
-<link rel="stylesheet" href="Login\assets\css\styleIndex.css">
+<link rel="stylesheet" href="assets\css\styleIndex.css">
 
 <?php require 'partials/header.php' ?>
 

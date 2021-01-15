@@ -1,6 +1,6 @@
 <?php 
 
- require 'database.php';
+ require '../Login/database.php';
 
  $message ='';
 
@@ -29,14 +29,14 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-    <?php require 'partials/header.php' ?>
+    <?php require '../partials/header.php' ?>
 
     <?php if(!empty($message)): ?>
         <p><?= $message ?></p>
     <?php endif; ?>
 
     <h1>REGISTRO</h1>
-    <span>ir a <a href="login.php">LOGIN</a></span>
+    <span>ir a <a href="../Login/login.php">LOGIN</a></span>
 
     <form action="registro.php" method="post">
         <input type="text" name="email" placeholder="Ingrese su usuario">

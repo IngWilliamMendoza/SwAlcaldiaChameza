@@ -1,6 +1,6 @@
 <?php 
 
-    include("db.php");
+    include("../Login/db.php");
 
     if ( isset($_GET['id'])) {
         $id = $_GET['id'];
@@ -15,5 +15,3 @@
         $_SESSION['message_type']= 'danger';
         header("Location: usuarios.php");
     }
-
-?>
