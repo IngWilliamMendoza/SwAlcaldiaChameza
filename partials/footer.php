@@ -1,12 +1,9 @@
+    
     <footer>
-        <!--
-        <div class="navbar navbar-dark bg-primary">
-            <div class="container">
-                <p>pagina diseñada por William Mendoza</p>      
-                <img src="recursos/imagenes/escudo.jpg" alt="escudo alcaldia de Chameza" width= "80px" height= "80px">  
-            </div>
+        <div class="footer-pag">
+            
+
         </div>
-            -->         
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
