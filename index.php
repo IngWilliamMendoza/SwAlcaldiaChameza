@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -110,14 +110,14 @@
             <div class="redesMain">
                 <h5 id="contact">Contactenos</h5>
                 <div class="redes">
-                    <a href="https://twitter.com/william02202171" target="_blank">
-                        <div class="twitter" alt="Twitter"> </div>
+                    <a href="https://github.com/IngWilliamMendoza" target="_blank">
+                        <div id="github"></div>
                     </a>
                     <a href="https://www.linkedin.com/in/william-armando-mendoza-hernandez-833a9384/" target="_blank">
-                        <div class="linkedin"></div>
+                        <div id="linkedin"></div>
                     </a>
-                    <a href="https://github.com/IngWilliamMendoza" target="_blank">
-                        <div class="github"></div>
+                    <a href="https://twitter.com/william02202171" target="_blank">
+                        <div id="twitter"></div>
                     </a>
                 </div>
             </div>

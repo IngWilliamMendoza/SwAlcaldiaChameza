@@ -9,13 +9,29 @@
 
     <link rel="stylesheet" href="../assets/css/estiloMenu.css">
     <link rel="stylesheet" href="../assets/css/estilosCabecera.css">
+    <link rel="stylesheet" href="../assets/css/estiloLogin.css">
     <link rel="icon" href="../recursos/iconos/icono.ico">
 </head>
 
 <body background="../recursos/imagenes/FondoBody.jpg">
 
+
     <div class="container-header">
-        <nav class="navbar navbar-dark bg-primary">
-            <a href="#" class="navbar-brand " tabindex="1" accesskey="h"> SISTEMA DE GESTION DE INFORMACION ALCALDIA DE CHAMEZA</a>
-        </nav>
+        <div class="logo">
+            <nav class="barra-navegacion">
+                <a href="#" accesskey="h"> SISTEMA DE GESTION DE ADMINISTRATIVA</a>
+            </nav>
+        </div>
+        <div class="barraIconos">
+            <a href="#">
+                <div id="nuevo"></div>
+            </a>
+            <a href="#">
+                <div id="ayuda"></div>
+            </a>
+            <a href="#">
+                <div id="salir"></div>
+            </a>
+        </div>
+
     </div>

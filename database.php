@@ -1,46 +1,31 @@
 <?php
+include('db.php');
+$usuario = $_POST['usuario'];
+$contraseña = $_POST['contraseña'];
+session_start();
+$_SESSION['usuario'] = $usuario;
 
-$server = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'php_login_database';
+$conexion = mysqli_connect('localhost:33065', 'root', 'toor', 'swchamezadb');
+$consulta = "SELECT*FROM usuarios where Usuario = '$usuario' and contraseña = '$contraseña'";
 
-try {
-  $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
-} catch (PDOException $e) {
-  die('Connection Failed: ' . $e->getMessage());
+$resultado = mysqli_query($conexion, $consulta);
+
+$filas = mysqli_num_rows($resultado);
+
+if ($filas) {
+  header("location:admin/administrador.php ");
+} else {
+?>
+  <?php
+  header("location:Login/login.php ");
+
+  ?>
+
+<?php
+
 }
+mysqli_free_result($resultado);
+mysqli_close($conexion);
 
 ?>
 
-// $server = 'localhost';
-// $username = 'root';
-// $password = '';
-// $database = 'php_login_database';
-
-// try {
-// $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
-// } catch (PDOException $e) {
-// die('Connection Failed: ' . $e->getMessage());
-// }
-
-$conexion = mysqli_connect("127.0.0.1:33065", "root", "SwChameza") or
-die("Problemas con la conexion");
-
-echo "Conexion correcta"
-
-?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-</html>

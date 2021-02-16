@@ -10,15 +10,58 @@ body {
 
 .container-header {
     width: 100%;
-    max-width: 850px;
+    padding: 10px;
+    background-color: #0096ff;
+    display: flex;
+    justify-content: space-between;
 }
 
-.abs-center {
+.logo {
+    border: 1px solid red;
+    padding: 5px 10px;
+}
+
+.barraIconos {
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.barraIconos div {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    /* background-color: black; */
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+#nuevo {
+    background-image: url("../../recursos/iconos/IconoCambiarContraseña.svg");
+    background-size: cover;
+}
+
+#ayuda {
+    background-image: url("../../recursos/iconos/ayuda.svg");
+    background-size: cover;
+}
+
+#salir {
+    background-image: url("../../recursos/iconos/salir.svg");
+    background-size: cover;
+}
+
+/* .abs-center {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-}
+} */
 
 /* header {
     width: 100%;

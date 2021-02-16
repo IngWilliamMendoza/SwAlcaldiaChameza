@@ -1,18 +1,12 @@
-<?php  
-    //conexion con las base de datos
-    session_start();    
-    
-    $conn = mysqli_connect(
-        'localhost',
-        'root',
-        '',
-        'chameza'
-    );
+<?php
+//conexion con las base de datos
+// session_start();
 
-    /*
-    //mensaje en pantalla para verificar la conexion a la base de datos
-    if(isset($conn)){
-        echo 'Db is connnected' ;
-    }
-    */
+$conexion = mysqli_connect(
+    'localhost:33065',
+    'root',
+    'toor',
+    'swchamezadb'
+);
 ?>
+

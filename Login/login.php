@@ -11,9 +11,7 @@
 
       <!-- contenedor del formulario de login -->
       <div class="contenedor-login-back">
-        <h3>Bienvendo </h3>
-        <p>Inicia sesión con tu usuario y contraseña</p>
-        <button id="btn-iniciar-sesion">Iniciar Sesión </button>
+
       </div>
 
       <!-- contenedor de la caja de la imagen y informacion -->
@@ -29,19 +27,11 @@
     <!-- contenedor del formulario de Login -->
     <div class="contenedor-form-login">
       <!-- formulario de login -->
-      <form action="" class="form-login">
+      <form action="../database.php" method="post" class="form-login">
         <h2>Iniciar Sesión</h2>
-        <input type="text" placeholder="Usuario">
-        <input type="password" placeholder="Contraseña">
-        <button>Iniciar Sesión</button>
-      </form>
-
-      <form action="" class="form-register">
-        <h2>Registrarse</h2>
-        <input type="text" placeholder="Nombre completo">
-        <input type="text" placeholder="Usuario">
-        <input type="password" placeholder="Contraseña">
-        <button>Registrarse</button>
+        <input type="text" placeholder="Usuario" name="usuario" required>
+        <input type="password" placeholder="Contraseña" name="contraseña" required>
+        <input type="submit" value="Iniciar Sesion" id="Login">
       </form>
 
     </div>
