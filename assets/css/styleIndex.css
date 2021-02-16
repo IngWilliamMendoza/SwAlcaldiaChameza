@@ -69,6 +69,18 @@ header {
     font-size: 20px;
 }
 
+.cont-2 img {
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.texto-body {
+    margin: 20px 0px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
 .cont-1 {
     border: 1px solid red;
     margin: 20px 0px;
@@ -87,17 +99,7 @@ header {
     line-height: 40px;
 }
 
-.cont-2 img {
-    width: 700px;
-    display: block;
-    margin: auto;
-}
-
-.texto-body {
-    margin: 20px 0px;
-    border: 1px solid red;
-    border-radius: 10px;
-}
+/* HASTA ACA  */
 
 footer {
     width: 100%;
@@ -115,15 +117,6 @@ footer {
 .navFooter {
     margin: 0px 20px;
     padding: 10px;
-}
-
-.columna1 {
-    display: inline-block;
-    margin: 5px 30px;
-}
-
-.columna1 ul {
-    margin: 0px;
 }
 
 .navFooter h5 {
@@ -144,34 +137,51 @@ footer {
     font-size: 15px;
 }
 
+.columna1 {
+    display: inline-block;
+    margin: 5px 30px;
+}
+
+.columna1 ul {
+    margin: 0px;
+}
+
+/* ICONOS DE REDES SOCIALES */
+
+.redesMain {
+    text-align: center;
+    width: 300px;
+    margin: 0px 20px;
+}
+
 .redesMain h5 {
     color: white;
-    text-align: center;
-    padding: 5px;
+    margin: 5px 0px 10px;
 }
 
 .redes {
-    height: inherit;
+    /* margin-top: 20px; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .redes div {
-    margin: 5px 20px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
-.twitter {
-    background: url("../../recursos/iconos/twitter.svg");
+#github {
+    background-image: url("../../recursos/iconos/github.svg");
 }
 
-.linkedin {
-    background: url("../../recursos/iconos/linkedin.svg");
+#linkedin {
+    background-image: url("../../recursos/iconos/linkedin.svg");
 }
 
-.github {
-    background: url("../../recursos/iconos/github.svg");
+#twitter {
+    background-image: url("../../recursos/iconos/twitter.svg");
 }
 
 #piePagina {

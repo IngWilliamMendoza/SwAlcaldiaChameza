@@ -1,28 +1,28 @@
-<?php include("../Login/db.php");
+<?php include("../db.php");
 
-if (isset($_GET['id'])) {
-    $id = $_GET['id'];
-    $query = "SELECT * FROM usuarios WHERE id = $id";
+if (isset($_GET['idUsuarios'])) {
+    $id = $_GET['idUsuarios'];
+    $query = "SELECT * FROM usuarios WHERE idUsuarios = $id";
     $result = mysqli_query($conn, $query);
     if (mysqli_num_rows($result) == 1) {
         $row = mysqli_fetch_array($result);
-        $Nombre = $row['nombre'];
-        $Apellido = $row['apellido'];
-        $Dependencia = $row['dependencia'];
-        $Usuario = $row['usuario'];
-        $Contraseña = $row['contraseña'];
+        $Nombre = $row['Nombre'];
+        $Apellido = $row['Apellido'];
+        $Dependencia = $row['Dependencia'];
+        $Usuario = $row['Usuario'];
+        // $Contraseña = $row['contraseña'];
     }
 }
 
 if (isset($_POST['update'])) {
-    $id = $_GET['id'];
-    $Nombre = $_POST['nombre'];
-    $Apellido = $_POST['apellido'];
-    $Dependencia = $_POST['dependencia'];
-    $Usuario = $_POST['usuario'];
-    $Contraseña = $_POST['contraseña'];
+    $id = $_GET['idUsuarios'];
+    $Nombre = $_POST['Nombre'];
+    $Apellido = $_POST['Apellido'];
+    $Dependencia = $_POST['Dependencia'];
+    $Usuario = $_POST['Usuario'];
+    // $Contraseña = $_POST['contraseña'];
 
-    $query = "UPDATE usuarios set nombre = '$Nombre', apellido = '$Apellido', dependencia ='$Dependencia', usuario = '$Usuario', contraseña ='$Contraseña' WHERE id =$id";
+    $query = "UPDATE usuarios set Nombre = '$Nombre', Apellido = '$Apellido', Dependencia ='$Dependencia', usuario = '$Usuario' WHERE idUsuarios =$id";
     mysqli_query($conn, $query);
 
     $_SESSION['message'] = 'Usuario actualizado';
@@ -38,7 +38,7 @@ if (isset($_POST['update'])) {
     <div class="row">
         <div class="col-md-4 mx-auto">
             <div class="card card-body">
-                <form action="editUsers.php?id= <?php echo $_GET['id']; ?>" method="POST">
+                <form action="editUsers.php?id= <?php echo $_GET['idUsuarios']; ?>" method="POST">
                     <div class="form-group">
                         <input type="text" name="Nombre" value="<?php echo $Nombre; ?>" class="form-control" placeholder="&#xfe0f actualiza el Nombre">
                     </div>
@@ -57,9 +57,9 @@ if (isset($_POST['update'])) {
                     <div class="form-group">
                         <input type="text" name="Usuario" value="<?php echo $Usuario; ?>" class="form-control" placeholder="&#xfe0f actualiza el Usuario">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <input type="password" name="Contraseña" value="<?php echo $Contraseña; ?>" class="form-control" placeholder="&#xfe0f actualiza la contraseña">
-                    </div>
+                    </div> -->
 
 
 

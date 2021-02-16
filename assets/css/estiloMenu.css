@@ -12,10 +12,7 @@ body {
     margin: 0;
     margin-left: var(--width-collapsed);
     height: 100%;
-<<<<<<< HEAD:assets/css/estiloMenu.css
     background-color: rgb(219, 229, 233);
-=======
->>>>>>> welcome:Login/assets/css/estiloMenu.css
 }
 
 .body-expanded {
@@ -32,15 +29,6 @@ body {
     background-position: 100% 100%;
 }
 
-<<<<<<< HEAD:assets/css/estiloMenu.css
-=======
-#main-container .bienvenida {}
-
-#main-container .usuarios {}
-
-#main-container .dependencias {}
-
->>>>>>> welcome:Login/assets/css/estiloMenu.css
 #sideMenu {
     color: white;
     position: fixed;
