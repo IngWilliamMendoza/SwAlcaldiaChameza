@@ -93,7 +93,7 @@
             </div>
 
             <div class="item">
-                <a href="../Login/index.php" accesskey="l" title="salir">
+                <a href="../index.php" accesskey="l" title="salir">
                     <div class="icon">
                         <img src="../recursos/iconos/iconoCerrarSesion.svg" alt="">
                     </div>
