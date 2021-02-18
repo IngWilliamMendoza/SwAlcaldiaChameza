@@ -36,18 +36,18 @@
             </div>
 
             <div class="item">
-                <a href="#">
-                    <div class="icon" accesskey="d" title="Dependencias(alt + d)">
-                        <img src="../recursos/iconos/iconoDependencias.svg" alt="">
+                <a href="../admin/reuniones.php" accesskey="d" title="Reuniones(alt + d)">
+                    <div class="icon">
+                        <img src="../recursos/iconos/iconoDependencias.svg" alt="Reuniones">
                     </div>
                     <div class="title">
-                        <span>Dependencias</span>
+                        <span>Reuniones</span>
                     </div>
                 </a>
             </div>
 
             <div class="item">
-                <a href="#" accesskey="t" title="Documentos(alt + t)">
+                <a href="../admin/Documentos.php" accesskey="t" title="Documentos(alt + t)">
                     <div class="icon">
                         <img src="../recursos/iconos/iconoDocumento.svg" alt="">
                     </div>
@@ -58,12 +58,12 @@
             </div>
 
             <div class="item">
-                <a href="#" accesskey="a" title="Agregar Documento(alt + a)">
+                <a href="../admin/calendar.php" accesskey="a" title="calendario(alt + a)">
                     <div class="icon">
-                        <img src="../recursos/iconos/iconoAgregarDocumento.svg" alt="">
+                        <img src="../recursos/iconos/calendar.svg" alt="">
                     </div>
                     <div class="title">
-                        <span>Reuniones</span>
+                        <span>Calendario</span>
                     </div>
                 </a>
             </div>

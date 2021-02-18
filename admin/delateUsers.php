@@ -5,7 +5,7 @@ include("../db.php");
 if (isset($_GET['idUsuarios'])) {
     $id = $_GET['idUsuarios'];
     $query = "DELETE FROM usuarios WHERE idUsuarios = $id";
-    $result = mysqli_query($conn, $query);
+    $result = mysqli_query($conexion, $query);
 
     if (!$result) {
         die("Query Failed");

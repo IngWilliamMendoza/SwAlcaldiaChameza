@@ -14,10 +14,10 @@ if (isset($_POST['saveUser'])) {
     $Apellido = $_POST['Apellido'];
     $Dependencia = $_POST['Dependencia'];
     $Usuario = $_POST['Usuario'];
-    // $Contraseña = $_POST['Contraseña'];
+    $Contraseña = $_POST['Contraseña'];
 
-    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario')";
-    $result = mysqli_query($conn, $query);
+    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, contraseña) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$Contraseña')";
+    $result = mysqli_query($conexion, $query);
 
     if (!$result) {
         die("Query Failed");

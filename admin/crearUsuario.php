@@ -35,7 +35,7 @@
                             <input type="text" name="Apellido" class="form-control" placeholder="&#x2328 Apellido" autofocus>
                         </div>
                         <div class="form-group ">
-                            <select class="form-control" name="Dependencias">
+                            <select class="form-control" name="Dependencia">
                                 <option>Planeacion</option>
                                 <option>Tesoreria</option>
                                 <option>Sisben</option>

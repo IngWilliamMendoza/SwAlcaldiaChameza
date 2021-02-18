@@ -13,8 +13,7 @@
     <link rel="icon" href="../recursos/iconos/icono.ico">
 </head>
 
-<body background="../recursos/imagenes/FondoBody.jpg">
-
+<body>
 
     <div class="container-header">
         <div class="logo">

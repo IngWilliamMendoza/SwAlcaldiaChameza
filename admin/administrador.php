@@ -3,7 +3,7 @@
 <?php require '../partials/header.php' ?>
 <?php require '../partials/menuLat.php' ?>
 
-<div id="container">
+<div class="container">
     <h1 class="text-center">WELCOME</h1>
     <div>
         <h2 class="text-center">SIGED(Sistema de Gestion Documental)</h2>
