@@ -7,6 +7,7 @@
 <title>Usuarios</title>
 
 <div class="container">
+    <br>
     <h1>Usuarios</h1>
     <div class="col-md-10">
         <a href="crearUsuario.php">
@@ -50,6 +51,12 @@
 
                 </tbody>
             </table>
+        </div>
+        <br>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-primary">Middle</button>
+            <button type="button" class="btn btn-primary">Right</button>
         </div>
     </div>
 

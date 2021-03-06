@@ -1,5 +1,5 @@
 <?php include("../partials/header.php") ?>
-<title>Crear Usuario</title>
+<title>Crear Documento</title>
 <?php require '../partials/menuLat.php' ?>
 
 <div class="container-fluid">
@@ -27,6 +27,7 @@
                     <form action="saveUser.php" method="POST">
                         <div class="form-group ">
                             <h2 class="text-center">Crear Documento</h2>
+                            <br>
                         </div>
                         <div class="form-group ">
                             <input type="text" name="Nombre" class="form-control" placeholder="&#x2328 Titulo del documento" autofocus>
@@ -36,7 +37,9 @@
                         </div>
 
 
-                        <input type="submit" class="btn btn-success " name="Examinar" value="Examinar">
+                        <input type="file" class="btn btn-success " name="Examinar" value="Examinar">
+                        <br>
+                        <br>
 
                         <input type="submit" class="btn btn-success btn-block" name="saveUser" value="Crear">
                     </form>
@@ -45,5 +48,3 @@
         </div>
     </div>
 </div>
-
-<?php include("../partials/footer.php") ?>

@@ -32,11 +32,12 @@ main {
 .back-container {
     width: 100%;
     height: 80%;
-    padding: 0px 20px;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 170, 255, 0.3);
+    background-color: rgba(14, 4, 105, 0.829);
+    border-radius: 20px;
 }
 
 .back-container div {
@@ -75,11 +76,11 @@ main {
 
 .contenedor-form-login {
     width: 100%;
-    height: 350px;
+    height: 330px;
     max-width: 380px;
     position: relative;
-    top: -400;
-    left: 15px;
+    top: -420;
+    left: 40px;
 }
 
 .contenedor-form-login form {
@@ -89,7 +90,6 @@ main {
     background: #ffffff;
     position: absolute;
     border-radius: 20px;
-    border: 1px solid red;
 }
 
 .contenedor-form-login form h2 {

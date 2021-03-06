@@ -12,7 +12,7 @@ body {
     margin: 0;
     margin-left: var(--width-collapsed);
     height: 100%;
-    background-color: rgb(211, 223, 228);
+    background-color: rgb(243, 241, 255);
 }
 
 .body-expanded {

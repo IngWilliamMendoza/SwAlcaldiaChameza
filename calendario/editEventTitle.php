@@ -1,6 +1,6 @@
 <?php
 // Conexion a la base de datos
-require_once('../db.php');
+require_once('../bdd.php');
 if (isset($_POST['delete']) && isset($_POST['idEvent'])) {
 
 
@@ -19,7 +19,7 @@ if (isset($_POST['delete']) && isset($_POST['idEvent'])) {
 	}
 } elseif (isset($_POST['title']) && isset($_POST['color']) && isset($_POST['idEvent'])) {
 
-	$id = $_POST['id'];
+	$id = $_POST['idEvent'];
 	$title = $_POST['title'];
 	$color = $_POST['color'];
 

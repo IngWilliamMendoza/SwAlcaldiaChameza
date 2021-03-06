@@ -58,7 +58,7 @@
             </div>
 
             <div class="item">
-                <a href="../admin/calendar.php" accesskey="a" title="calendario(alt + a)">
+                <a href="../calendario/calendar.php" accesskey="a" title="calendario(alt + a)">
                     <div class="icon">
                         <img src="../recursos/iconos/calendar.svg" alt="">
                     </div>
@@ -120,3 +120,5 @@
 
         });
     </script>
+
+    <?php require 'footer.php' ?>

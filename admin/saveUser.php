@@ -1,10 +1,4 @@
 <?php
-//verificar que los datos se esten procesando 
-/*
-    if(isset($_POST['save_task'])){
-        echo 'saving';
-    }
-    */
 //incluir la conexion a la base de datos
 include("../db.php");
 
@@ -16,7 +10,7 @@ if (isset($_POST['saveUser'])) {
     $Usuario = $_POST['Usuario'];
     $Contraseña = $_POST['Contraseña'];
 
-    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, contraseña) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$Contraseña')";
+    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, Contraseña) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$Contraseña')";
     $result = mysqli_query($conexion, $query);
 
     if (!$result) {

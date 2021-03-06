@@ -17,8 +17,11 @@
       <!-- contenedor de la caja de la imagen y informacion -->
       <div class="container-imag-login">
         <h3>Alcaldia de Chameza</h3>
-        <p>Software para la gestion administrativa de la alcaldia de Chameza</p>
-        <button id="btn-info"> Mas informacion </button>
+        <p>Software para la gestion administrativa de la alcaldia de Chameza: <br>Su fundación data desde antes de la conquista de América, de 1429, cuando el cacique Chámeza, amo de estas tierras, la bautizó con su nombre. Y Fue erigido como municipio en 1959.</p>
+        <a href="http://www.chameza-casanare.gov.co/" target="_blank">
+          <button id="btn-info"> Mas informacion </button>
+        </a>
+
       </div>
 
 
