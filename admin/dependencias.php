@@ -1,17 +1,18 @@
-<?php include("../db.php") ?>
+<?php include("../db.php") 
+/**
+ * importaciones de las clases de php
+ */
+?>
 
 <?php include("../partials/header.php") ?>
 <?php include("../partials/menuLat.php") ?>
 
-
-<title>Usuarios</title>
-
 <div class="container">
     <div class="row col-12 col-lg-12 d-flex flex-column mt-5 mx-auto">
-        <h1 class="title__user mx-auto my-3">Usuarios</h1>
+        <h1 class="title__user mx-auto my-3">Dependencias</h1>
         <div class=" col-12">
             <a href="crearUsuario.php">
-                <img src="../recursos/iconos/anadirUser.svg" alt="Añadir Usuario" width="42" height="42" class="crear_usuario">
+                <img src="../recursos/iconos/agregar-dependencia.svg" alt="Añadir Usuario" width="42" height="42" class="crear_usuario">
             </a>
             <div class="card card-body col-12 my-3">
                 <table class="table table-bordered">
@@ -74,12 +75,6 @@
     </div>
 
 </div>
-
-
-
-
-
-
 
 
 <?php include("../partials/footer.php") ?>

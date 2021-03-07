@@ -34,7 +34,16 @@
                     </div>
                 </a>
             </div>
-
+            <div class="item">
+                <a href="../admin/dependencias.php" accesskey="u" title="Usuarios(alt + u)">
+                    <div class="icon">
+                        <img src="../recursos/iconos/dependencias.svg" alt="">
+                    </div>
+                    <div class="title">
+                        <span>Dependencias</span>
+                    </div>
+                </a>
+            </div>
             <div class="item">
                 <a href="../admin/reuniones.php" accesskey="d" title="Reuniones(alt + d)">
                     <div class="icon">

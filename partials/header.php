@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assets/css/estilosCabecera.css">
     <link rel="stylesheet" href="../assets/css/estiloLogin.css">
     <link rel="icon" href="../recursos/iconos/icono.ico">
+    <link rel="stylesheet" href="../assets/css/usuarios.css">
 </head>
 
 <body>
