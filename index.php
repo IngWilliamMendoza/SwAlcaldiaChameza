@@ -117,7 +117,8 @@
             </div>
             <div class="card-body">
                 <p class="card-text">El manual de usuario adjunto define los principales pasos necesarios para realizar la instalacion como el manejo del software, puedes descargar el manual de usuario atraves del siguiente link</p>
-                <a href="" class="btn btn-outline-primary mb-3 mx-auto"> Descargar</a>
+
+                <a href="recursos/Manual de usuario.pdf" class="btn btn-outline-primary mb-3 mx-auto" target="_blank"> Descargar</a>
             </div>
         </div>
 
@@ -163,7 +164,7 @@
             <div class="redesMain">
                 <h5 id="contact">Contactenos</h5>
                 <div class="redes">
-                    <a href="https://github.com/IngWilliamMendoza" target="_blank">
+                    <a href="https://github.com/IngWilliamMendoza/SwAlcaldiaChameza" target="_blank">
                         <div id="github"></div>
                     </a>
                     <a href="https://www.linkedin.com/in/william-armando-mendoza-hernandez-833a9384/" target="_blank">
