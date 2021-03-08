@@ -98,7 +98,7 @@ body {
 
 #sideMenu #profile #foto img {
     border-radius: 50%;
-    width: 40%;
+    width: 50%;
 }
 
 #sideMenu #profile #foto, #sideMenu #profile #name {
@@ -122,7 +122,7 @@ body {
 }
 
 #sideMenu #menu-items .item .icon, #sideMenu #menu-items .item .title {
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bolder;
     vertical-align: middle;
     overflow: hidden;
@@ -144,7 +144,7 @@ body {
 }
 
 #sideMenu #menu-items .item .icon img {
-    width: 80%;
+    width: 100%;
 }
 
 #sideMenu #menu-items .item .title {

@@ -18,9 +18,8 @@
 
     <div class="container-header">
         <div class="logo">
-            <nav class="barra-navegacion">
-                <a href="#" accesskey="h"> SISTEMA DE GESTION DE ADMINISTRATIVA</a>
-            </nav>
+            <img src="../recursos/iconos/iconoPrin.svg" alt="Software de gestion documental.">
+            <h3 class="d-inline-block ml-4 font-italic">SIGED</h3>
         </div>
         <div class="barraIconos">
             <a href="#">
@@ -29,7 +28,7 @@
             <a href="#">
                 <div id="ayuda"></div>
             </a>
-            <a href="#">
+            <a href="../index.php">
                 <div id="salir"></div>
             </a>
         </div>

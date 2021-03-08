@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <title>Sistema de gestion documental</title>
-    <link rel="icon" href="../recursos/iconos/icono.ico">
+    <title>SIGED</title>
+    <link rel="icon" href="recursos/iconos/icono.ico">
     <link rel="stylesheet" href="assets\css\styleIndex.css">
 </head>
 
@@ -16,7 +16,8 @@
 
     <div class="barra-navegacion">
         <div class="logo">
-            <img src="recursos/iconos/IconoDocumento.svg" alt="Software de gestion documental." width=30px>
+            <img src="recursos/iconos/iconoPrin.svg" alt="Software de gestion documental.">
+            <h3 class="d-inline-block ml-4 font-italic">SIGED</h3>
         </div>
         <div class="menuNav">
             <nav>
@@ -61,37 +62,63 @@
 
     <div class="container">
 
-        <h1 id="Bienvenida">SOFTWARE DE GESTION ADMINISTRATIVA <br> ALCALDIA DE CHAMEZA</h1>
-        <div class="cont-1">
-            <div class="texto1">
+        <h1 id="Bienvenida" class="my-4">SOFTWARE DE GESTION DOCUMENTAL (SIGED)<br> ALCALDIA DE CHAMEZA</h1>
+        <div class="card my-5">
+            <div class="card-header">
                 <h2>Inicio</h2>
-                <p id="Inicio">El presente software se realizo como un proyecto academico dentro del Tecnologo en analisis y desarrollo de sistemas de información impartido por el Servicion Nacional de Aprendizaje "SENA".<br>El proposito de esta actividad es que los aprendices implementen diversas tecnologias con el fin de solucionar las problematicas de su región.
-                </p>
             </div>
-            <div class="imagen1">
-                <img src="recursos/imagenes/Sena.jpeg" alt="SENA" width="500px">
+            <div class="card-body">
+                <p class="card-text">El presente software se realizo como un proyecto academico dentro del Tecnologo en analisis y desarrollo de sistemas de información impartido por el Servicion Nacional de Aprendizaje "SENA".<br>El proposito de esta actividad es que los aprendices implementen diversas tecnologias con el fin de solucionar las problematicas de su región.</p>
             </div>
+            <img class="card-img-bottom" src="recursos/imagenes/Sena.jpeg" alt="SENA">
         </div>
-        <div class="cont-2">
-            <div id="AcercaDe">
+
+
+
+        <div class="card my-5">
+            <div class="card-header">
                 <h2>Acerca De</h2>
-                <p>El presente proyecto consiste en el desarrollo de una aplicacion web para gestionar algunos de los procesos administrativos de la alcaldia de Chameza. para el desarrolo del presente poyecto utilizamos las siguientes tecnologias: </p>
-                <img src="recursos/imagenes/tecnologias.png" alt="tecnologias web">
-
-                <p class="texto-body"> <strong>HTML (HyperText Markup Language)</strong> <br> es un lenguaje muy sencillo que permite describir hipertexto, es decir, texto presentado de forma estructurada y agradable, con enlaces (hyperlinks) que conducen a otros documentos o fuentes de información relacionadas, y con inserciones multimedia (gráficos, sonido...) La descripción se basa en especificar en el texto la estructura lógica del contenido (títulos, párrafos de texto normal, enumeraciones, definiciones, citas, etc) así como los diferentes efectos que se quieren dar (especificar los lugares del documento donde se debe poner cursiva, negrita, o un gráfico determinado) y dejar que luego la presentación final de dicho hipertexto se realice por un programa especializado (como Mosaic, o Netscape).<br></p>
-                <p class="texto-body"><strong>CSS (Cascading Style Sheets)</strong> <br> es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML). Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación. <br></p>
-                <p class="texto-body"> <strong>JAVASCRIPT</strong><br>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado.</p>
-
-                <p class="texto-body"> <strong>PHP</strong> es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML. El lenguaje PHP se procesa en servidores, que son potentes ordenadores con un software y hardware especial. Cuando se escribe una dirección tipo http://www.google.com/index.php en un navegador web como Internet Explorer, Firefox o Chrome, ¿qué ocurre? Se envían los datos de la solicitud al servidor que los procesa, reúne los datos (por eso decimos que es un proceso dinámico) y el servidor lo que devuelve es una página HTML como si fuera estática.
-                </p>
+            </div>
+            <div class="card-body">
+                <div class="cont-2">
+                    <div id="AcercaDe">
+                        <p class="card-text">El presente proyecto consiste en el desarrollo de una aplicacion web para gestionar algunos de los procesos administrativos de la alcaldia de Chameza. para el desarrolo del presente poyecto utilizamos las siguientes tecnologias: </p>
 
 
+                        <h3 class="card-title">HTML (HyperText Markup Language)</h3>
+                        <p class="card-text">es un lenguaje muy sencillo que permite describir hipertexto, es decir, texto presentado de forma estructurada y agradable, con enlaces (hyperlinks) que conducen a otros documentos o fuentes de información relacionadas, y con inserciones multimedia (gráficos, sonido...) La descripción se basa en especificar en el texto la estructura lógica del contenido (títulos, párrafos de texto normal, enumeraciones, definiciones, citas, etc) así como los diferentes efectos que se quieren dar (especificar los lugares del documento donde se debe poner cursiva, negrita, o un gráfico determinado) y dejar que luego la presentación final de dicho hipertexto se realice por un programa especializado (como Mosaic, o Netscape).</p>
+                        <img src="recursos/imagenes/html.jpg" alt="tecnologias web" class="img-tech">
+
+                        <h3 class="card-title">CSS</h3>
+                        <p class="card-text">es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML). Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación.</p>
+                        <img src="recursos/imagenes/css.png" alt="tecnologias web" class="img-tech">
+
+                        <h3 class="card-title">BOOTSTRAP</h3>
+                        <p class="card-text">Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario. desarrollado por Twitter en 2010, para estandarizar las herramientas de la compañía.Inicialmente, se llamó Twitter Blueprint y, un poco más tarde, en 2011, se transformó en código abierto y su nombre cambió para Bootstrap. Desde entonces fue actualizado varias veces y ya se encuentra en la versión 4.4.El framework combina CSS y JavaScript para estilizar los elementos de una página HTML. Permite mucho más que, simplemente, cambiar el color de los botones y los enlaces. Esta es una herramienta que proporciona interactividad en la página, por lo que ofrece una serie de componentes que facilitan la comunicación con el usuario, como menús de navegación, controles de página, barras de progreso y más.</p>
+                        <img src="recursos/imagenes/bootstrap.jpg" alt="tecnologias web" class="img-tech">
+
+                        <h3 class="card-title">JAVASCRIPT</h3>
+                        <p class="card-text">JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado.</p>
+                        <img src="recursos/imagenes/js.png" alt="tecnologias web" class="img-tech">
+
+                        <h3 class="card-title">PHP</h3>
+                        <p class="card-text">es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML. El lenguaje PHP se procesa en servidores, que son potentes ordenadores con un software y hardware especial. Cuando se escribe una dirección tipo http://www.google.com/index.php en un navegador web como Internet Explorer, Firefox o Chrome, ¿qué ocurre? Se envían los datos de la solicitud al servidor que los procesa, reúne los datos (por eso decimos que es un proceso dinámico) y el servidor lo que devuelve es una página HTML como si fuera estática.</p>
+                        <img src="recursos/imagenes/php.png" alt="tecnologias web" class="img-tech">
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="Manual">
-            <h2>Manual de Usuario</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nostrum possimus odit eligendi, quos cumque. Repellendus, a architecto, delectus provident quidem fuga molestias quibusdam vitae dolor expedita hic doloribus odit!</p>
+
+
+        <div class="card my-5">
+            <div class="card-header">
+                <h2>Manual de Usuario</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">El manual de usuario adjunto define los principales pasos necesarios para realizar la instalacion como el manejo del software, puedes descargar el manual de usuario atraves del siguiente link</p>
+                <a href="" class="btn btn-outline-primary mb-3 mx-auto"> Descargar</a>
+            </div>
         </div>
 
     </div>

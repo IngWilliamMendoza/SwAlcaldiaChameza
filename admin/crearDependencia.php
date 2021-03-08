@@ -1,12 +1,12 @@
 <?php include("../partials/header.php") ?>
-<title>Crear Documento</title>
+<title>Crear Usuario</title>
 <?php require '../partials/menuLat.php' ?>
 
 <div class="container-fluid">
 
-    <div class="container">
-        <div class="row col-12 col-lg-12 d-flex flex-column mt-5 mx-auto">
-            <div class="col-md-6 my-5">
+    <div class="container p-2 ">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-6 my-5 py-5">
 
                 <?php if (isset($_SESSION['message'])) { ?>
                     <div class="alert alert-<?= $_SESSION['message_type'] ?> alert-dismissible fade show" role="alert">
@@ -24,27 +24,19 @@
 
 
                 <div class="card card-body ">
-                    <form action="saveDoc.php" method="POST">
+                    <form action="saveDependencia.php" method="POST">
                         <div class="form-group ">
-                            <h2 class="text-center mx-auto my-3">Crear Documento</h2>
-                            <br>
+                            <h2 class="text-center">Crear Dependencia</h2>
                         </div>
                         <div class="form-group ">
-                            <input type="text" name="Nombre_doc" class="form-control my-2" placeholder="&#x2328 Titulo del documento" autofocus>
+                            <input type="text" name="Nombre_dep" class="form-control" placeholder="&#x2328 Nombre" autofocus>
                         </div>
-                        <div class="form-group ">
-                            <input type="text" name="Tipo_doc" class="form-control my-2" placeholder="&#x2328 Categoria" autofocus>
-                        </div>
-
-
-                        <input type="file" class="btn btn-success my-2" name="url" value="Examinar">
-                        <br>
-                        <br>
-
-                        <input type="submit" class="btn btn-success btn-block" name="saveDoc" value="Crear">
+                        <input type="submit" class="btn btn-success btn-block" name="saveDependencia" value="Crear">
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<?php include("../partials/footer.php") ?>

@@ -5,7 +5,7 @@
 }
 
 .barra-navegacion {
-    padding: 20px;
+    padding: 10px;
     background-color: #007bff;
     color: white;
     display: flex;
@@ -17,27 +17,27 @@
     display: inline-block;
     font-weight: bold;
     text-transform: capitalize;
-    padding: 0px 20px;
+    padding: 0px 15px;
     transition: all 0.3s ease;
 }
 
 .barra-navegacion nav ul li:hover {
     transform: scale(1.1);
-    background-color: #0096ff;
+    color: #0096ff;
 }
 
 .barra-navegacion nav ul a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .barra-navegacion nav ul {
     margin: 0px;
 }
 
-.logo {
-    margin: 0px;
+.logo img {
+    width: 40px;
 }
 
 .menuNav {
@@ -46,22 +46,16 @@
     height: auto;
 }
 
-.container {
-    margin: auto;
-    padding: 0px;
-}
-
 .container h1 {
     text-align: center;
     padding: 20px
 }
 
-.container p {
-    font-size: 20px;
+.img-tech {
+    height: 300px;
 }
 
 .cont-2 img {
-    width: 700px;
     display: block;
     margin: auto;
 }

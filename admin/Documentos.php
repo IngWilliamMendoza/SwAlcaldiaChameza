@@ -6,11 +6,13 @@
 <title>Usuarios</title>
 
 <div class="container">
-
-    <div class="col-md-12">
-        <a href="crearDocumento.php" title="añadir documento">
-            <img src="../recursos/iconos/AddDocument.svg" alt="Añadir Usuario" width="42" height="42" class="crear_usuario">
-        </a>
+    <div class="row col-12 col-lg-12 d-flex flex-column mt-5 mx-auto">
+        <h1 class="title__user mx-auto my-3">Documentos</h1>
+        <div class="col-md-12">
+            <a href="crearDocumento.php" title="añadir documento">
+                <img src="../recursos/iconos/AddDocument.svg" alt="Añadir Usuario" width="42" height="42" class="crear_usuario my-4">
+            </a>
+        </div>
         <div class="card card-body">
             <table class="table table-bordered">
                 <thead>
@@ -48,8 +50,9 @@
                 </tbody>
             </table>
         </div>
-    </div>
 
+
+    </div>
 </div>
 
 

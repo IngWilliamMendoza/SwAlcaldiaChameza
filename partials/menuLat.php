@@ -23,7 +23,18 @@
 
         <!--Item-->
 
+
         <div id="menu-items">
+            <div class="item">
+                <a href="../admin/administrador.php" accesskey="d" title="Reuniones(alt + d)">
+                    <div class="icon">
+                        <img src="../recursos/iconos/iconoDependencias.svg" alt="Reuniones">
+                    </div>
+                    <div class="title">
+                        <span>Inicio</span>
+                    </div>
+                </a>
+            </div>
             <div class="item">
                 <a href="../admin/usuarios.php" accesskey="u" title="Usuarios(alt + u)">
                     <div class="icon">
@@ -41,16 +52,6 @@
                     </div>
                     <div class="title">
                         <span>Dependencias</span>
-                    </div>
-                </a>
-            </div>
-            <div class="item">
-                <a href="../admin/reuniones.php" accesskey="d" title="Reuniones(alt + d)">
-                    <div class="icon">
-                        <img src="../recursos/iconos/iconoDependencias.svg" alt="Reuniones">
-                    </div>
-                    <div class="title">
-                        <span>Reuniones</span>
                     </div>
                 </a>
             </div>
@@ -79,7 +80,7 @@
 
             <div class="item separator"></div>
 
-            <div class="item">
+            <!-- <div class="item">
                 <a href="#" accesskey="e" title="Edita perfil(alt + e)">
                     <div class="icon">
                         <img src="../recursos/iconos/iconoEditarPerfil.svg" alt="">
@@ -99,7 +100,7 @@
                         <span>Cambiar Contraseña</span>
                     </div>
                 </a>
-            </div>
+            </div> -->
 
             <div class="item">
                 <a href="../index.php" accesskey="l" title="salir">

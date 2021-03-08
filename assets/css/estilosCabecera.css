@@ -21,6 +21,10 @@ body {
     margin: 0 10px;
 }
 
+.logo img {
+    width: 40px;
+}
+
 .barraIconos {
     margin: 0px 20px;
     display: flex;
