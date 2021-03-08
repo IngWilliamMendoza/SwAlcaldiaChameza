@@ -1,6 +1,5 @@
-<?php
-//incluir la conexion a la base de datos
-include("../db.php");
+<?php include("../db.php");
+
 
 
 if (isset($_POST['saveUser'])) {
@@ -8,13 +7,15 @@ if (isset($_POST['saveUser'])) {
     $Apellido = $_POST['Apellido'];
     $Dependencia = $_POST['Dependencia'];
     $Usuario = $_POST['Usuario'];
-    $Contraseña = $_POST['Contraseña'];
+    $contraseña = $_POST['Contraseña'];
+    $email = $_POST['email'];
+    $Telefono = $_POST['Telefono'];
 
-    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, Contraseña) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$Contraseña')";
+    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, Contraseña, email, Telefono) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$contraseña', '$email', '$Telefono')";
     $result = mysqli_query($conexion, $query);
 
     if (!$result) {
-        die("Query Failed");
+        die("Se ha presaentado un error");
     }
 
     $_SESSION['message'] = 'Usuario guardado';

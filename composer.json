@@ -1,0 +1,13 @@
+{
+    "name": "williammendoza/software-alcaldia-chameza",
+    "description": "proyecto del curso del sena",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "William Mendoza",
+            "email": "Ing_William_Mendoza@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

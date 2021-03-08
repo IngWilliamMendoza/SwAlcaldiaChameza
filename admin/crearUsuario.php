@@ -4,9 +4,9 @@
 
 <div class="container-fluid">
 
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-md-6">
+    <div class="container p-2 ">
+        <div class="row d-flex justify-content-center ">
+            <div class="col-6 my-5 py-5">
 
                 <?php if (isset($_SESSION['message'])) { ?>
                     <div class="alert alert-<?= $_SESSION['message_type'] ?> alert-dismissible fade show" role="alert">
@@ -48,6 +48,12 @@
                         </div>
                         <div class="form-group ">
                             <input type="password" name="Contraseña" class="form-control" placeholder="&#x1f512 Contraseña" autofocus>
+                        </div>
+                        <div class="form-group ">
+                            <input type="text" name="email" class="form-control" placeholder="&#128231 Email" autofocus>
+                        </div>
+                        <div class="form-group ">
+                            <input type="text" name="Telefono" class="form-control" placeholder="&#9743 Telefono" autofocus>
                         </div>
                         <input type="submit" class="btn btn-success btn-block" name="saveUser" value="Crear">
                     </form>
