@@ -5,7 +5,7 @@
 <div class="container-fluid">
 
     <div class="container">
-        <div class="row col-12 col-lg-12 d-flex flex-column mt-5 mx-auto">
+        <div class="row d-flex justify-content-center mx-auto my-5">
             <div class="col-md-6 my-5">
 
                 <?php if (isset($_SESSION['message'])) { ?>

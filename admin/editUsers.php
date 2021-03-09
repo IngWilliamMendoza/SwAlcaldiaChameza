@@ -33,11 +33,15 @@ if (isset($_POST['update'])) {
 ?>
 
 <?php include("../partials/header.php") ?>
+<?php include("../partials/menuLat.php") ?>
 
 <div class="container p-4">
     <div class="row">
-        <div class="col-md-4 mx-auto">
-            <div class="card card-body">
+        <div class="col-8 mx-auto">
+            <div class="card card-body my-5">
+                <div class="form-group ">
+                    <h2 class="text-center">Editar Usuario</h2>
+                </div>
                 <form action="editUsers.php?id= <?php echo $_GET['id']; ?>" method="POST">
                     <div class="form-group">
                         <input type="text" name="Nombre" value="<?php echo $Nombre; ?>" class="form-control" placeholder="&#xfe0f actualiza el Nombre">
