@@ -17,7 +17,7 @@
 <body>
 
     <div class="container-header">
-        <div class="logo">
+        <div class="logo ml-5">
             <img src="../recursos/iconos/iconoPrin.svg" alt="Software de gestion documental.">
             <h3 class="d-inline-block ml-4 font-italic">SIGED</h3>
         </div>

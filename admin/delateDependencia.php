@@ -4,14 +4,14 @@ include("../db.php");
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $query = "DELETE FROM usuarios WHERE idUsuarios = $id";
+    $query = "DELETE FROM dependencia WHERE idDependencia = $id";
     $result = mysqli_query($conexion, $query);
 
     if (!$result) {
         die("Query Failed");
     }
 
-    $_SESSION['message'] = 'Usuario eliminada';
+    $_SESSION['message'] = 'Dependencia eliminada';
     $_SESSION['message_type'] = 'danger';
-    header("Location: usuarios.php");
+    header("Location: dependencias.php");
 }

@@ -1,7 +1,7 @@
 <?php include("../db.php");
 
-if (isset($_GET['idUsuarios'])) {
-    $id = $_GET['idUsuarios'];
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
     $query = "SELECT * FROM usuarios WHERE idUsuarios = $id";
     $result = mysqli_query($conexion, $query);
     if (mysqli_num_rows($result) == 1) {
@@ -15,14 +15,14 @@ if (isset($_GET['idUsuarios'])) {
 }
 
 if (isset($_POST['update'])) {
-    $id = $_GET['idUsuarios'];
+    $id = $_GET['id'];
     $Nombre = $_POST['Nombre'];
     $Apellido = $_POST['Apellido'];
     $Dependencia = $_POST['Dependencia'];
     $Usuario = $_POST['Usuario'];
     $Contraseña = $_POST['contraseña'];
 
-    $query = "UPDATE usuarios set Nombre = '$Nombre', Apellido = '$Apellido', Dependencia ='$Dependencia', usuario = '$Usuario' , contraseña = '$Contraseña' WHERE idUsuarios = '$id'";
+    $query = "UPDATE usuarios set Nombre = '$Nombre', Apellido = '$Apellido', Dependencia ='$Dependencia', Usuario = '$Usuario' , contraseña = '$Contraseña' WHERE idUsuarios = '$id'";
     mysqli_query($conexion, $query);
 
     $_SESSION['message'] = 'Usuario actualizado';
@@ -38,7 +38,7 @@ if (isset($_POST['update'])) {
     <div class="row">
         <div class="col-md-4 mx-auto">
             <div class="card card-body">
-                <form action="editUsers.php?id= <?php echo $_GET['idUsuarios']; ?>" method="POST">
+                <form action="editUsers.php?id= <?php echo $_GET['id']; ?>" method="POST">
                     <div class="form-group">
                         <input type="text" name="Nombre" value="<?php echo $Nombre; ?>" class="form-control" placeholder="&#xfe0f actualiza el Nombre">
                     </div>
@@ -46,7 +46,7 @@ if (isset($_POST['update'])) {
                         <input type="text" name="Apellido" value="<?php echo $Apellido; ?>" class="form-control" placeholder="&#xfe0f actualiza el Apellido">
                     </div>
                     <div class="form-group">
-                        <select name="Dependencias" value="<?php echo $Dependencia; ?>" class="form-control">
+                        <select name="Dependencia" value="<?php echo $Dependencia; ?>" class="form-control">
                             <option>Planeacion</option>
                             <option>Tesoreria</option>
                             <option>Sisben</option>

@@ -2,8 +2,8 @@
 
 include("../db.php");
 
-if (isset($_GET['idDocumento'])) {
-    $id = $_GET['idUsuarios'];
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
     $query = "DELETE FROM documentos WHERE idDocumento = $id";
     $result = mysqli_query($conexion, $query);
 

@@ -33,11 +33,11 @@
                         while ($row = mysqli_fetch_array($result_usuarios)) { ?>
                             <tr>
                                 <td> <?php echo $row['Nombre_dep'] ?></td>
-                                <td> <a href="editUsers.php?id=<?php echo $row['idDependencia'] ?> " class="btn btn-success">
+                                <td> <a href="editDependencia.php?id=<?php echo $row['idDependencia'] ?> " class="btn btn-success">
                                         <img src="../recursos/iconos/edit.svg" alt="Editar" width="32" height="32">
                                     </a>
                                 </td>
-                                <td> <a href="delateUsers.php?id=<?php echo $row['idDependencia'] ?>" class="btn btn-danger">
+                                <td> <a href="delateDependencia.php?id=<?php echo $row['idDependencia'] ?>" class="btn btn-danger">
                                         <img src="../recursos/iconos/delate.svg" alt="Borrar" width="32" height="32">
                                     </a>
                                 </td>

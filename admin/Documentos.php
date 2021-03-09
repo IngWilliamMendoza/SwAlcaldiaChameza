@@ -40,7 +40,7 @@
                                     <img src="../recursos/iconos/edit.svg" alt="Editar" width="32" height="32">
                                 </a>
                             </td>
-                            <td> <a href="delateUsers.php?id=<?php echo $row['idDocumento'] ?>" class="btn btn-danger">
+                            <td> <a href="delateDocument.php?id=<?php echo $row['idDocumento'] ?>" class="btn btn-danger">
                                     <img src="../recursos/iconos/delate.svg" alt="Borrar" width="32" height="32">
                                 </a>
                             </td>

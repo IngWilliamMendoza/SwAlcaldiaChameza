@@ -1,33 +1,29 @@
 <?php include("../db.php");
 
-if (isset($_GET['idUsuarios'])) {
-    $id = $_GET['idUsuarios'];
-    $query = "SELECT * FROM usuarios WHERE idUsuarios = $id";
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+    $query = "SELECT * FROM documentos WHERE idDocumento = $id";
     $result = mysqli_query($conexion, $query);
     if (mysqli_num_rows($result) == 1) {
         $row = mysqli_fetch_array($result);
-        $Nombre = $row['Nombre'];
-        $Apellido = $row['Apellido'];
-        $Dependencia = $row['Dependencia'];
-        $Usuario = $row['Usuario'];
-        $Contraseña = $row['contraseña'];
+        $Nombre = $row['Nombre_doc'];
+        $Tipo_doc = $row['Tipo_doc'];
+        $url = $row['url'];
     }
 }
 
 if (isset($_POST['update'])) {
-    $id = $_GET['idUsuarios'];
-    $Nombre = $_POST['Nombre'];
-    $Apellido = $_POST['Apellido'];
-    $Dependencia = $_POST['Dependencia'];
-    $Usuario = $_POST['Usuario'];
-    $Contraseña = $_POST['contraseña'];
+    $id = $_GET['id'];
+    $Nombre = $row['Nombre_doc'];
+    $Tipo_doc = $row['Tipo_doc'];
+    $url = $row['url'];
 
-    $query = "UPDATE usuarios set Nombre = '$Nombre', Apellido = '$Apellido', Dependencia ='$Dependencia', usuario = '$Usuario' , contraseña = '$Contraseña' WHERE idUsuarios = '$id'";
+    $query = "UPDATE documentos set Nombre_doc = '$Nombre', Tipo_doc = '$Tipo_doc', url = '$url' WHERE idDocumento = '$id'";
     mysqli_query($conexion, $query);
 
-    $_SESSION['message'] = 'Usuario actualizado';
+    $_SESSION['message'] = 'Documento actualizado';
     $_SESSION['message_type'] = 'info';
-    header("Location: usuarios.php");
+    header("Location: Documentos.php");
 }
 
 ?>
@@ -38,30 +34,17 @@ if (isset($_POST['update'])) {
     <div class="row">
         <div class="col-md-4 mx-auto">
             <div class="card card-body">
-                <form action="editUsers.php?id= <?php echo $_GET['idUsuarios']; ?>" method="POST">
+                <form action="editDocuments.php?id= <?php echo $_GET['id']; ?>" method="POST">
                     <div class="form-group">
-                        <input type="text" name="Nombre" value="<?php echo $Nombre; ?>" class="form-control" placeholder="&#xfe0f actualiza el Nombre">
+                        <input type="text" name="Nombre_doc" value="<?php echo $Nombre; ?>" class="form-control" placeholder="&#xfe0f Nombre del documento">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="Apellido" value="<?php echo $Apellido; ?>" class="form-control" placeholder="&#xfe0f actualiza el Apellido">
-                    </div>
-                    <div class="form-group">
-                        <select name="Dependencias" value="<?php echo $Dependencia; ?>" class="form-control">
-                            <option>Planeacion</option>
-                            <option>Tesoreria</option>
-                            <option>Sisben</option>
-                            <option>Archivo</option>
-                            <option>Sistemas</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="Usuario" value="<?php echo $Usuario; ?>" class="form-control" placeholder="&#xfe0f actualiza el Usuario">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" name="Contraseña" value="<?php echo $Contraseña; ?>" class="form-control" placeholder="&#xfe0f actualiza la contraseña">
+                        <input type="text" name="Tipo_doc" value="<?php echo $Tipo_doc; ?>" class="form-control" placeholder="&#xfe0f Tipo de documento">
                     </div>
 
-
+                    <div class="form-group">
+                        <input type="file" name="url" value="<?php echo $url; ?>" class="form-control" placeholder="&#xfe0f seleccionar el documento">
+                    </div>
 
                     <button class="btn btn-success" name="update">actualizar</button>
                 </form>
