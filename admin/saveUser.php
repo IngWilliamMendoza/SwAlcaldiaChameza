@@ -11,11 +11,11 @@ if (isset($_POST['saveUser'])) {
     $email = $_POST['email'];
     $Telefono = $_POST['Telefono'];
 
-    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, Contraseña, email, Telefono) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$contraseña', '$email', '$Telefono')";
+    $query = "INSERT INTO usuarios(Nombre, Apellido, Dependencia, Usuario, Contraseña, email, Telefono, idDependencia) VALUE('$Nombre', '$Apellido','$Dependencia','$Usuario','$contraseña', '$email', '$Telefono','$Dependencia')";
     $result = mysqli_query($conexion, $query);
 
     if (!$result) {
-        die("Se ha presaentado un error");
+        die("Se ha presentado un error");
     }
 
     $_SESSION['message'] = 'Usuario guardado';

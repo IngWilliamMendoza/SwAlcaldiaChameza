@@ -1,6 +1,9 @@
 <?php include("../partials/header.php") ?>
 <title>Crear Usuario</title>
-<?php require '../partials/menuLat.php' ?>
+<?php
+require '../partials/menuLat.php';
+include("../db.php");
+?>
 
 <div class="container-fluid">
 
@@ -36,11 +39,11 @@
                         </div>
                         <div class="form-group ">
                             <select class="form-control" name="Dependencia">
-                                <option>Planeacion</option>
-                                <option>Tesoreria</option>
-                                <option>Sisben</option>
-                                <option>Archivo</option>
-                                <option>Sistemas</option>
+                                <option value="17">Planeacion</option>
+                                <option value="18">Tesoreria</option>
+                                <option value="19">Sisben</option>
+                                <option value="20">Archivo</option>
+                                <option value="21">Sistemas</option>
                             </select>
                         </div>
                         <div class="form-group ">

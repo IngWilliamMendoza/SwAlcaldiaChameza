@@ -14,9 +14,9 @@ if (isset($_GET['id'])) {
 
 if (isset($_POST['update'])) {
     $id = $_GET['id'];
-    $Nombre = $row['Nombre_doc'];
-    $Tipo_doc = $row['Tipo_doc'];
-    $url = $row['url'];
+    $Nombre = $_POST['Nombre_doc'];
+    $Tipo_doc = $_POST['Tipo_doc'];
+    $url = $_POST['url'];
 
     $query = "UPDATE documentos set Nombre_doc = '$Nombre', Tipo_doc = '$Tipo_doc', url = '$url' WHERE idDocumento = '$id'";
     mysqli_query($conexion, $query);
