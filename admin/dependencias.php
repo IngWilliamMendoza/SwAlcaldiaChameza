@@ -1,7 +1,5 @@
 <?php include("../db.php")
-/**
- * importaciones de las clases de php
- */
+
 ?>
 
 <?php include("../partials/header.php") ?>

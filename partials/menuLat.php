@@ -78,29 +78,7 @@
                 </a>
             </div>
 
-            <div class="item separator"></div>
-
-            <!-- <div class="item">
-                <a href="#" accesskey="e" title="Edita perfil(alt + e)">
-                    <div class="icon">
-                        <img src="../recursos/iconos/iconoEditarPerfil.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Editar Perfil</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="item">
-                <a href="#" accesskey="p" title="Cambiar Contraseña">
-                    <div class="icon">
-                        <img src="../recursos/iconos/iconoCambiarContraseña.svg" alt="">
-                    </div>
-                    <div class="title">
-                        <span>Cambiar Contraseña</span>
-                    </div>
-                </a>
-            </div> -->
+            <div class="item separator"></div>  
 
             <div class="item">
                 <a href="../index.php" accesskey="l" title="salir">
